@@ -1,0 +1,44 @@
+.nav {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    transition: .5s;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__search-shop {
+    display: flex;
+    gap: 40px;
+}
+
+.nav__search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav__search-auth-btn {
+    color: rgb(21, 105, 99);
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 8px 20px;
+    transition: .5s;
+}
+
+.nav__search-auth-btn:hover {
+    background-color: rgb(21, 105, 99);
+    color: white;
+}
+
+.nav__bg {
+    background: white;
+}
